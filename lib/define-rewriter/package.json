@@ -1,0 +1,9 @@
+{
+  "name": "define-rewriter",
+  "keywords": [
+    "ember-addon"
+  ],
+  "emberAddon": {
+    "before": "ember-cli-uglify"
+  }
+}
