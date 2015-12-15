@@ -5,7 +5,7 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     vendorFiles: {
-      'ember.js': 'vendor/ember.js'
+      'jquery.js': false, 'ember.js': false
     }
   });
 
